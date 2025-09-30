@@ -21,4 +21,5 @@ source local-quicktest/vllm-qwen2.5-7b.sh
 ```
 
 2. Update the locustfile.py in this folder to point to the correct model based on the vllm that you spin
-3.
+3. Run local-quicktest/locust-exec.sh
+4. Configure the number of users and ramp up in the Web UI (usually 5 users, 1 ramp up)
