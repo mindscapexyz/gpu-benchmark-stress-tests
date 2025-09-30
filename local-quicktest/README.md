@@ -7,3 +7,18 @@
 - Or Phi-3-Mini 3.8B
 
 
+# How to execute
+1. Spin the vllm server u want
+phi3-mini
+```
+source local-quicktest/vllm-phi3-mini.sh
+```
+
+or 
+
+```
+source local-quicktest/vllm-qwen2.5-7b.sh
+```
+
+2. Update the locustfile.py in this folder to point to the correct model based on the vllm that you spin
+3.
